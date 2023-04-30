@@ -7,6 +7,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+
         var serviceProvider = new ServiceCollection()
             .AddScoped<IRecipientRepository, RecipientRepository>()
             .AddScoped<IIngredientRepository, IngredientRepository>()

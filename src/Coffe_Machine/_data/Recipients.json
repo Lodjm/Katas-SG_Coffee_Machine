@@ -1,7 +1,7 @@
 [
   {
-    "Name": "Expresso",
-    "Details": [
+    "RecipientName": "Expresso",
+    "Ingredients": [
       {
         "Name": "Café",
         "Count": 1
@@ -13,8 +13,8 @@
     ]
   },
   {
-    "Name": "Allongé",
-    "Details": [
+    "RecipientName": "Allongé",
+    "Ingredients": [
       {
         "Name": "Café",
         "Count": 1
@@ -26,8 +26,8 @@
     ]
   },
   {
-    "Name": "Capuccino",
-    "Details": [
+    "RecipientName": "Capuccino",
+    "Ingredients": [
       {
         "Name": "Café",
         "Count": 1
@@ -47,8 +47,8 @@
     ]
   },
   {
-    "Name": "Chocolat",
-    "Details": [
+    "RecipientName": "Chocolat",
+    "Ingredients": [
       {
         "Name": "Chocolat",
         "Count": 3
@@ -68,8 +68,8 @@
     ]
   },
   {
-    "Name": "The",
-    "Details": [
+    "RecipientName": "The",
+    "Ingredients": [
       {
         "Name": "Thé",
         "Count": 1
