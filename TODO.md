@@ -1,4 +1,4 @@
-#TODO 
+# TODO 
 
 - Affichage d'un menu via simple chiffre ex : 1 = Expresso
 - Gestion des erreurs : ExceptionMétier + Log
