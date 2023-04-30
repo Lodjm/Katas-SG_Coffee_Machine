@@ -21,4 +21,14 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Coffee_Machine_Menu.DataAccess\Coffee_Machine_Menu.DataAccess.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="_dataTest\test.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

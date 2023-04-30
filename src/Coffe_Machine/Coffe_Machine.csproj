@@ -16,4 +16,10 @@
     <ProjectReference Include="..\Coffee_Machine_MenuDisplay\Coffee_Machine_MenuDisplay.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="_data\Ingredient.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
