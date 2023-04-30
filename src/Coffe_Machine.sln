@@ -9,13 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F78E8715-778
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AAF77F41-5F57-4426-BC98-6B56376374C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee_Machine_MenuDisplay", "Coffee_Machine_MenuDisplay\Coffee_Machine_MenuDisplay.csproj", "{EBFEA0C1-673E-478E-91D6-3D7ACFB7762D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coffee_Machine_MenuDisplay", "Coffee_Machine_MenuDisplay\Coffee_Machine_MenuDisplay.csproj", "{EBFEA0C1-673E-478E-91D6-3D7ACFB7762D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee_Machine_Menu.DataAccess", "Coffee_Machine_Menu.DataAccess\Coffee_Machine_Menu.DataAccess.csproj", "{59ACF8FA-05E3-4F66-919B-2FD95AD738BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coffee_Machine_Menu.DataAccess", "Coffee_Machine_Menu.DataAccess\Coffee_Machine_Menu.DataAccess.csproj", "{59ACF8FA-05E3-4F66-919B-2FD95AD738BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffe_Machine_MenuDisplayTests", "..\tests\Coffe_Machine_MenuDisplayTests\Coffe_Machine_MenuDisplayTests.csproj", "{D7BF96D7-14E1-4A2A-B65C-0B64F6D0F782}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coffe_Machine_MenuDisplayTests", "..\tests\Coffe_Machine_MenuDisplayTests\Coffe_Machine_MenuDisplayTests.csproj", "{D7BF96D7-14E1-4A2A-B65C-0B64F6D0F782}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee_Machine_MenuDisplay.DataAccess", "Coffee_Machine_MenuDisplay.DataAccess\Coffee_Machine_MenuDisplay.DataAccess.csproj", "{16103A3A-77BD-4D05-851A-5D687BE5AA5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coffee_Machine_Menu.DataAccessTests", "..\tests\Coffee_Machine_Menu.DataAccessTests\Coffee_Machine_Menu.DataAccessTests.csproj", "{16103A3A-77BD-4D05-851A-5D687BE5AA5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
