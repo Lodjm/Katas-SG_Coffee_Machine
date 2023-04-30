@@ -1,0 +1,83 @@
+[
+  {
+    "Name": "Expresso",
+    "Details": [
+      {
+        "Name": "Café",
+        "Count": 1
+      },
+      {
+        "Name": "Eau",
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Name": "Allongé",
+    "Details": [
+      {
+        "Name": "Café",
+        "Count": 1
+      },
+      {
+        "Name": "Eau",
+        "Count": 2
+      }
+    ]
+  },
+  {
+    "Name": "Capuccino",
+    "Details": [
+      {
+        "Name": "Café",
+        "Count": 1
+      },
+      {
+        "Name": "Chocolat",
+        "Count": 1
+      },
+      {
+        "Name": "Eau",
+        "Count": 1
+      },
+      {
+        "Name": "Crème",
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Name": "Chocolat",
+    "Details": [
+      {
+        "Name": "Chocolat",
+        "Count": 3
+      },
+      {
+        "Name": "Lait",
+        "Count": 2
+      },
+      {
+        "Name": "Eau",
+        "Count": 1
+      },
+      {
+        "Name": "Sucre",
+        "Count": 1
+      }
+    ]
+  },
+  {
+    "Name": "The",
+    "Details": [
+      {
+        "Name": "Thé",
+        "Count": 1
+      },
+      {
+        "Name": "Eau",
+        "Count": 2
+      }
+    ]
+  }
+]

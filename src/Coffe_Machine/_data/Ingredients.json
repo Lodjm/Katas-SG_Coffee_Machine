@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Café",
+    "Price": 1.0
+  },
+  {
+    "Name": "Sucre",
+    "Price": 0.1
+  },
+  {
+    "Name": "Crème",
+    "Price": 0.5
+  },
+  {
+    "Name": "Thé",
+    "Price": 2.0
+  },
+  {
+    "Name": "Eau",
+    "Price": 0.2
+  },
+  {
+    "Name": "Chocolat",
+    "Price": 1.0
+  },
+  {
+    "Name": "Lait",
+    "Price": 0.4
+  }
+]

@@ -1,4 +1,5 @@
-﻿using Coffee_Machine_MenuDisplay;
+﻿using Coffee_Machine_Menu.DataAccess;
+using Coffee_Machine_MenuDisplay;
 using Coffee_Machine_MenuDisplay.Contracts;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -7,6 +8,8 @@ internal class Program
     private static void Main(string[] args)
     {
         var serviceProvider = new ServiceCollection()
+            .AddScoped<IRecipientRepository, RecipientRepository>()
+            .AddScoped<IIngredientRepository, IngredientRepository>()
             .AddScoped<IMenuDisplayService, MenuDisplayService>()
         .BuildServiceProvider();
 
