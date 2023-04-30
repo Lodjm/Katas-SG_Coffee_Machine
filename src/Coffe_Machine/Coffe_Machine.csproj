@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Coffee_Machine_Menu.DataAccess\Coffee_Machine_Menu.DataAccess.csproj" />
+    <ProjectReference Include="..\Coffee_Machine_MenuDisplay\Coffee_Machine_MenuDisplay.csproj" />
+  </ItemGroup>
+
 </Project>

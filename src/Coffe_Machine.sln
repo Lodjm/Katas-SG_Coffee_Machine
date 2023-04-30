@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffe_Machine", "Coffe_Machine/Coffe_Machine.csproj", "{7771D099-9F87-4FBE-A116-71BBF033A495}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coffe_Machine", "Coffe_Machine\Coffe_Machine.csproj", "{7771D099-9F87-4FBE-A116-71BBF033A495}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F78E8715-778F-4904-A35D-6C752F83F8D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AAF77F41-5F57-4426-BC98-6B56376374C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee_Machine_MenuDisplay", "Coffee_Machine_MenuDisplay\Coffee_Machine_MenuDisplay.csproj", "{EBFEA0C1-673E-478E-91D6-3D7ACFB7762D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee_Machine_Menu.DataAccess", "Coffee_Machine_Menu.DataAccess\Coffee_Machine_Menu.DataAccess.csproj", "{59ACF8FA-05E3-4F66-919B-2FD95AD738BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffe_Machine_MenuDisplayTests", "..\tests\Coffe_Machine_MenuDisplayTests\Coffe_Machine_MenuDisplayTests.csproj", "{D7BF96D7-14E1-4A2A-B65C-0B64F6D0F782}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffee_Machine_MenuDisplay.DataAccess", "Coffee_Machine_MenuDisplay.DataAccess\Coffee_Machine_MenuDisplay.DataAccess.csproj", "{16103A3A-77BD-4D05-851A-5D687BE5AA5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +27,32 @@ Global
 		{7771D099-9F87-4FBE-A116-71BBF033A495}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7771D099-9F87-4FBE-A116-71BBF033A495}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7771D099-9F87-4FBE-A116-71BBF033A495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBFEA0C1-673E-478E-91D6-3D7ACFB7762D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBFEA0C1-673E-478E-91D6-3D7ACFB7762D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBFEA0C1-673E-478E-91D6-3D7ACFB7762D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBFEA0C1-673E-478E-91D6-3D7ACFB7762D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59ACF8FA-05E3-4F66-919B-2FD95AD738BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59ACF8FA-05E3-4F66-919B-2FD95AD738BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59ACF8FA-05E3-4F66-919B-2FD95AD738BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59ACF8FA-05E3-4F66-919B-2FD95AD738BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7BF96D7-14E1-4A2A-B65C-0B64F6D0F782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7BF96D7-14E1-4A2A-B65C-0B64F6D0F782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7BF96D7-14E1-4A2A-B65C-0B64F6D0F782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7BF96D7-14E1-4A2A-B65C-0B64F6D0F782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16103A3A-77BD-4D05-851A-5D687BE5AA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16103A3A-77BD-4D05-851A-5D687BE5AA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16103A3A-77BD-4D05-851A-5D687BE5AA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16103A3A-77BD-4D05-851A-5D687BE5AA5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7771D099-9F87-4FBE-A116-71BBF033A495} = {F78E8715-778F-4904-A35D-6C752F83F8D0}
+		{EBFEA0C1-673E-478E-91D6-3D7ACFB7762D} = {F78E8715-778F-4904-A35D-6C752F83F8D0}
+		{59ACF8FA-05E3-4F66-919B-2FD95AD738BB} = {F78E8715-778F-4904-A35D-6C752F83F8D0}
+		{D7BF96D7-14E1-4A2A-B65C-0B64F6D0F782} = {AAF77F41-5F57-4426-BC98-6B56376374C3}
+		{16103A3A-77BD-4D05-851A-5D687BE5AA5B} = {AAF77F41-5F57-4426-BC98-6B56376374C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB63B6E2-7547-46A1-AEB6-3D42A453BE82}
