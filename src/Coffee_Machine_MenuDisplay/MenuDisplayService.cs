@@ -29,7 +29,10 @@ namespace Coffee_Machine_MenuDisplay
             foreach (var recipient in recipients)
             {
                 var drink = new Drink(recipient, ingredients, 0.3m);
-                _menu.Add(drink.Name, drink.Price);
+                if (drink.IsValid)
+                {
+                    _menu.Add(drink.Name, drink.Price);
+                }
             }
         }
 

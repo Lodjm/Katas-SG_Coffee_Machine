@@ -16,6 +16,7 @@ namespace Coffee_Machine_MenuDisplay.Models
             Name = recipient.RecipientName; _margin += margin;
             if (recipient != null && recipient.Ingredients != null && ingredients != null)
             {
+                IsValid = true;
                 CalculatePrice(recipient, ingredients);
             }
         }
@@ -25,16 +26,26 @@ namespace Coffee_Machine_MenuDisplay.Models
             foreach (var ingredientCounter in recipient.Ingredients)
             {
                 var ingredient = ingredients.FirstOrDefault(i => i.Name == ingredientCounter.Name);
+                if (ingredient == null) 
+                {
+                    IsValid = false;
+                    break;
+                }
+
                 if (ingredient != null)
                 {
                     price += ingredient.Price * ingredientCounter.Count;
                 }
             }
-            Price = price * _margin;
+            if (IsValid)
+            {
+                Price = price * _margin;
+            }
         }
 
         public string Name { get; }
 
         public decimal Price { get; private set; }
+        public bool IsValid { get; private set; }
     }
 }

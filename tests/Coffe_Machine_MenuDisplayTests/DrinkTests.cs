@@ -74,5 +74,25 @@ namespace Coffe_Machine_MenuDisplayTests
 
             Assert.Equal(1.3m, drink.Price);
         }
+
+        [Fact]
+        public void Drink_Should_SetIsValid_False_If_Ingredient_Are_Not_Found()
+        {
+            var ing = new Ingredient("test", 0.3m);
+            var ingCount = new IngredientCounter("test", 3);
+            var ingCount2 = new IngredientCounter("test2", 1);
+            var drink = new Drink(new Recipient("test", new List<IngredientCounter>()
+            {
+                ingCount,
+                ingCount2
+            }),
+                new List<Ingredient>()
+                {
+                ing,
+                },
+            0.3m);
+
+            Assert.False(drink.IsValid);
+        }
     }
 }
