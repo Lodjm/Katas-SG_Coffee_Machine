@@ -26,7 +26,7 @@ namespace Coffee_Machine_MenuDisplay.Models
             foreach (var ingredientCounter in recipient.Ingredients)
             {
                 var ingredient = ingredients.FirstOrDefault(i => i.Name == ingredientCounter.Name);
-                if (ingredient == null) 
+                if (ingredient == null || !ingredient.IsValid && !ingredientCounter.IsValid) 
                 {
                     IsValid = false;
                     break;
