@@ -48,9 +48,31 @@ namespace Coffe_Machine_MenuDisplayTests
                 ing,
                 ing2
                 },
-                0);
+            0);
 
             Assert.Equal(1m, drink.Price);
+        }
+
+        [Fact]
+        public void Drink_Should_SetPrice_With_Margin()
+        {
+            var ing = new Ingredient("test", 0.3m);
+            var ing2 = new Ingredient("test2", 0.1m);
+            var ingCount = new IngredientCounter("test", 3);
+            var ingCount2 = new IngredientCounter("test2", 1);
+            var drink = new Drink(new Recipient("test", new List<IngredientCounter>()
+            {
+                ingCount,
+                ingCount2
+            }),
+                new List<Ingredient>()
+                {
+                ing,
+                ing2
+                },
+            0.3m);
+
+            Assert.Equal(1.3m, drink.Price);
         }
     }
 }
